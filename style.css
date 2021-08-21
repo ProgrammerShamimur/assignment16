@@ -1,0 +1,178 @@
+/*  //////  ==========
+              #header section css 
+======================== //// */
+.header{
+    background-color: #1c1446;
+}
+.header-logo {
+    width: 80px;
+    height: auto;
+}
+.header-logo img {
+    width: 100%;
+}
+
+.primary-menu ul{
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 41px;
+}
+
+
+
+/*  //////  ==========
+              #banner section css 
+======================== //// */
+.banner {
+    background: url(./intro-bg.jpg) scroll no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 333px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -2;
+}
+.banner-text h3{}
+.banner-text p {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.banner-text a{
+    background-color: #5674b2;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+
+/*  //////  ==========
+              #team section css 
+======================== //// */
+.team{
+    background-color: #bdbcf0;
+    padding: 60px 0;
+}
+.team-header h2{
+    font-size: 52px;
+    font-family: sans-serif;
+}
+.team-men{}
+
+.team-men-details {
+    width: 209px;
+    display: inline-block;
+    text-align: center;
+}
+.team-men-details h4{
+    font-family: sans-serif;
+    color: #2c3755d0;
+}
+.team-men-details p {
+    color: #535354;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.team-men-details a{
+    background-color: #5674b2;
+    font-family: sans-serif;
+}
+
+
+/*  =====================
+              #team section css 
+======================== */
+.about{
+    background-color: #c7d1e8;
+}
+.about-header h2{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+ul.identy{
+    list-style-type: none;
+}
+ul.identy li {
+    color: #535354;
+    font-size: 18px;
+    margin-bottom: 3px;
+    font-family: sans-serif;
+}
+.morgan-details{}
+.morgan-details p {
+    color: #535354;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.about-morgan{}
+.about-morgan h4 {
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.about-morgan p {
+    color: #535354;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.about-morgan h5 {
+    color: #535354;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+/*  =====================
+              #contact section css 
+======================== */
+.contact{
+    background-color: #f5f5f5;
+}
+.contact-header h2{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+#name, #email, #subject{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+ [type=submit]{
+    font-family: sans-serif;
+} 
+label {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/*  =====================
+              #footer section css 
+======================== */
+.footer{
+    background-color: #4455cc;
+}
+.footer-text p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.footer-text .dev {
+    font-weight: 600;
+}
